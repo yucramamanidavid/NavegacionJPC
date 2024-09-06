@@ -72,7 +72,6 @@ public val lightRedScheme = lightColorScheme(
     surfaceContainerHigh = red_surfaceContainerHighLight,
     surfaceContainerHighest = red_surfaceContainerHighestLight,
 )
-
 public val darkRedScheme = darkColorScheme(
     primary = red_primaryDark,
     onPrimary = red_onPrimaryDark,
