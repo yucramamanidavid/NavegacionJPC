@@ -103,7 +103,6 @@ public val darkRedScheme = darkColorScheme(
     inverseOnSurface = red_inverseOnSurfaceDark,
     inversePrimary = red_inversePrimaryDark,
 )
-
 public val lightGreenScheme = lightColorScheme(
     primary = green_primaryLight,
     onPrimary = green_onPrimaryLight,
