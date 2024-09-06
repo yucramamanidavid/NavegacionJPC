@@ -33,6 +33,8 @@ public val LightColorScheme = lightColorScheme(
     onSurface = Color(0xFF1C1B1F),
     */
 )
+
+
 public val lightRedScheme = lightColorScheme(
     primary = red_primaryLight,
     onPrimary = red_onPrimaryLight,
@@ -103,7 +105,7 @@ public val darkRedScheme = darkColorScheme(
 )
 
 public val lightGreenScheme = lightColorScheme(
-    /*primary = green_primaryLight,
+    primary = green_primaryLight,
     onPrimary = green_onPrimaryLight,
     primaryContainer = green_primaryContainerLight,
     onPrimaryContainer = green_onPrimaryContainerLight,
@@ -137,11 +139,11 @@ public val lightGreenScheme = lightColorScheme(
     surfaceContainerLow = green_surfaceContainerLowLight,
     surfaceContainer = green_surfaceContainerLight,
     surfaceContainerHigh = green_surfaceContainerHighLight,
-    surfaceContainerHighest = green_surfaceContainerHighestLight,*/
+    surfaceContainerHighest = green_surfaceContainerHighestLight,
 )
 
 public val darkGreenScheme = darkColorScheme(
-    /*primary = green_primaryDark,
+    primary = green_primaryDark,
     onPrimary = green_onPrimaryDark,
     primaryContainer = green_primaryContainerDark,
     onPrimaryContainer = green_onPrimaryContainerDark,
@@ -175,10 +177,10 @@ public val darkGreenScheme = darkColorScheme(
     surfaceContainerLow = green_surfaceContainerLowDark,
     surfaceContainer = green_surfaceContainerDark,
     surfaceContainerHigh = green_surfaceContainerHighDark,
-    surfaceContainerHighest = green_surfaceContainerHighestDark,*/
+    surfaceContainerHighest = green_surfaceContainerHighestDark,
 )
-
 enum class ThemeType{RED, GREEN}
+
 
 @Composable
 fun NavegacionJPCTheme(
